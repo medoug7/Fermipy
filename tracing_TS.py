@@ -22,7 +22,6 @@ import astropy.units as u
 from astropy.coordinates import SkyCoord as Coord
 import time
 from fermipy.gtanalysis import GTAnalysis
-from fermipy.plotting import ROIPlotter, SEDPlotter
 from fermi_utils import pars, gen_rd_pos, roi_i
 warnings.filterwarnings("ignore")
 matplotlib.interactive(True)
